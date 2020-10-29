@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+}
+body{
+   background: -webkit-gradient(linear, left top, left bottom, from(#34bdfc), to(#f5f8fa));
+} 
+
+.menu-general {
+   position: relative;
+   float: left;
+} 
+
+ul.nav {
+   list-style: none;
+   display: block;
+   width: 200px;
+   position: relative;
+   top: 50px;
+   left: 100px;
+   padding: 60px 0 60px 0;
+   -webkit-background-size: 50% 100%;
+   -moz-background-size: 50% 100%;
+   -o-background-size: 50% 100%;
+} 
+
+ul.nav li a {
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   background: #f77e08;
+   color: #174867;
+   padding: 7px 15px 7px 15px;
+   -webkit-border-top-right-radius: 10px;
+   -moz-border-top-right-radius: 10px;
+   -o-border-top-right-radius: 10px;
+   -webkit-border-bottom-right-radius: 10px;
+   -moz-border-bottom-right-radius: 10px;
+   -o-border-bottom-right-radius: 10px;
+   -webkit-border-top-left-radius: 10px;
+   -moz-border-top-left-radius: 10px;
+   -o-border-top-left-radius: 10px;
+   -webkit-border-bottom-left-radius: 10px;
+   -moz-border-bottom-left-radius: 10px;
+   -o-border-bottom-left-radius: 10px;
+   width: 100px;
+   display: block;
+   text-decoration: none;
+   -webkit-box-shadow: 2px 2px 4px #0e169b;
+   -moz-box-shadow: 2px 2px 4px #0e169b;
+   -o-box-shadow: 2px 2px 4px #0e169b;
+} 
+
+ul.nav li a:hover {
+   background: #faef77;
+   color: #67a5cd;
+   padding: 7px 15px 7px 30px;
+} 
